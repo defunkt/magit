@@ -1,13 +1,13 @@
 Source: magit
-Format: 3.0 (native)
 Section: devel
 Priority: optional
 Maintainer: Marius Vollmer <marius.vollmer@gmail.com>
 Build-Depends: debhelper (>= 7), emacs | emacsen, texinfo
-Standards-Version: 3.6.0
+Standards-Version: 3.8.0
 
 Package: magit
 Architecture: all
+Depends: ${misc:Depends}
 Description: A Emacs interface for Git
  With Magit, you can inspect and modify your Git repositories with
  Emacs.  You can review and commit the changes you have made to the
