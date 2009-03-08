@@ -3,7 +3,7 @@ Format: 3.0 (native)
 Section: devel
 Priority: optional
 Maintainer: Marius Vollmer <marius.vollmer@gmail.com>
-Build-Depends: debhelper (>= 7), emacsen, texinfo
+Build-Depends: debhelper (>= 7), emacs | emacsen, texinfo
 Standards-Version: 3.6.0
 
 Package: magit
