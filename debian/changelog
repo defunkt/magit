@@ -1,4 +1,11 @@
-magit (0.7-2~unreleased) unstable; urgency=low
+magit (0.7-2) unstable; urgency=low
+
+  * List all authors in debian/copyright.
+  * Lintian fixes.
+
+ -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 08 Mar 2009 22:30:54 +0200
+
+magit (0.7-1) unstable; urgency=low
 
   New upstream release.
   
