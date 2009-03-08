@@ -2,7 +2,7 @@ Source: magit
 Format: 3.0 (native)
 Section: devel
 Priority: optional
-Maintainer: Marius Vollmer <marius.vollmer@uni-dortmund.de>
+Maintainer: Marius Vollmer <marius.vollmer@gmail.com>
 Build-Depends: debhelper (>= 7), emacsen, texinfo
 Standards-Version: 3.6.0
 
