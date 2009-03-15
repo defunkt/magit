@@ -1,0 +1,26 @@
+#!/bin/sh -eu
+
+# cripped from the cdargs package.
+
+FLAVOR="$1"
+
+byte_compile_options="-batch -f batch-byte-compile"
+el_file="magit.el" 
+el_dir="/usr/share/emacs/site-lisp"
+elc_dir="/usr/share/$FLAVOR/site-lisp"
+
+if [ "$FLAVOR" != emacs ]
+then
+    echo "install/magit: Byte-compiling for $FLAVOR"
+
+    # Copy the temp .el files
+    trap "rm -f \"$elc_dir/$el_file\"" 0
+    cp "$el_dir/$el_file" "$elc_dir/$el_file"
+
+    # Byte compile them
+    "$FLAVOR" $byte_compile_options "$elc_dir/$el_file" > /dev/null 2>&1
+
+    rm -f "$elc_dir/$el_file"
+    trap "" 0
+fi
+exit 0

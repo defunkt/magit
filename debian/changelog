@@ -1,3 +1,11 @@
+magit (0.7-3~unreleased) unstable; urgency=low
+
+  * Follow Debian Emacsen policy.
+    - Use scripts in /usr/lib/emacsen-common/packages to
+      byte-compile during installation.
+
+ -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 15 Mar 2009 22:10:03 +0200
+
 magit (0.7-2) unstable; urgency=low
 
   * List all authors in debian/copyright.

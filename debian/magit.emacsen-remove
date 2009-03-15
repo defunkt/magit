@@ -1,0 +1,10 @@
+#!/bin/sh -eu
+
+FLAVOR="$1"
+
+if [ "$FLAVOR" != emacs ]
+then
+    echo "remove/magit: Purging byte-compiled files for ${FLAVOR}"
+    rm -f "/usr/share/$FLAVOR/site-lisp/magit.elc"
+fi
+exit 0
