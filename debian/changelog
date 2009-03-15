@@ -1,4 +1,4 @@
-magit (0.7-3~unreleased) unstable; urgency=low
+magit (0.7-3) unstable; urgency=low
 
   * Follow Debian Emacsen policy.
     - Use scripts in /usr/lib/emacsen-common/packages to
