@@ -1,3 +1,10 @@
+magit (0.7-4~unreleased) unstable; urgency=low
+
+  * Increased standards version to 3.8.1.
+  * Added Homepage field.
+
+ -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 19 Apr 2009 23:03:42 +0300
+
 magit (0.7-3) unstable; urgency=low
 
   * Follow Debian Emacsen policy.

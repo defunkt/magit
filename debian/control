@@ -3,7 +3,8 @@ Section: devel
 Priority: optional
 Maintainer: Marius Vollmer <marius.vollmer@gmail.com>
 Build-Depends: debhelper (>= 7), emacs | emacsen, texinfo
-Standards-Version: 3.8.0
+Standards-Version: 3.8.1
+Homepage: http://zagadka.vm.bytemark.co.uk/magit/
 
 Package: magit
 Architecture: all
