@@ -1,26 +1,24 @@
-magit (0.7-4~unreleased) unstable; urgency=low
+magit (0.7-2~unreleased) unstable; urgency=low
 
-  * Increased standards version to 3.8.1.
-  * Added Homepage field.
+  * Added Homepage, Vcs-Git, and Vcs-Browser fields.
 
- -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 19 Apr 2009 23:03:42 +0300
+ -- Marius Vollmer <marius.vollmer@gmail.com>  Tue, 28 Apr 2009 22:55:41 +0300
 
-magit (0.7-3) unstable; urgency=low
+magit (0.7-1) unstable; urgency=low
 
+  * first official debian upload (closes: #518818)
+
+  [ RISKO Gergely ]
+  * pointer added to GFDL-1.2 in debian/copyright
+  * changed debian/compat to 7
+  * standards-version to 3.8.1
+
+  [ Marius Vollmer ]
   * Follow Debian Emacsen policy.
     - Use scripts in /usr/lib/emacsen-common/packages to
       byte-compile during installation.
-
- -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 15 Mar 2009 22:10:03 +0200
-
-magit (0.7-2) unstable; urgency=low
-
   * List all authors in debian/copyright.
   * Lintian fixes.
-
- -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 08 Mar 2009 22:30:54 +0200
-
-magit (0.7-1) unstable; urgency=low
 
   New upstream release.
   
@@ -71,7 +69,7 @@ magit (0.7-1) unstable; urgency=low
   * The name of the Git program and common options for it can be
     customized.
 
- -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 08 Mar 2009 22:06:01 +0200
+ -- Marius Vollmer <marius.vollmer@gmail.com>  Sun, 26 Apr 2009 19:13:16 +0300
 
 magit (0.6.1-1) unstable; urgency=low
 

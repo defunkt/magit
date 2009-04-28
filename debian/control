@@ -5,6 +5,8 @@ Maintainer: Marius Vollmer <marius.vollmer@gmail.com>
 Build-Depends: debhelper (>= 7), emacs | emacsen, texinfo
 Standards-Version: 3.8.1
 Homepage: http://zagadka.vm.bytemark.co.uk/magit/
+Vcs-Browser: http://gitorious.org/projects/magit/repos/mainline
+Vcs-Git: git://gitorious.org/magit/mainline.git
 
 Package: magit
 Architecture: all
