@@ -2889,7 +2889,7 @@ Prefix arg means justify as well."
 	 (commit (and (member 'commit (magit-section-context-type section))
 		      (magit-section-info section)))
 	 (old-editor (getenv "GIT_EDITOR")))
-    (setenv "GIT_EDITOR" (expand-file-name "emacsclient" exec-directory))
+    (setenv "GIT_EDITOR" "/usr/bin/emacsclient")
     (unwind-protect
 	(shell-command (concat magit-git-executable " rebase -i "
 			       (or (and commit (concat commit "^"))

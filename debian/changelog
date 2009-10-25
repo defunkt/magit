@@ -3,7 +3,8 @@ magit (0.7-2~unreleased) unstable; urgency=low
   * Added Homepage, Vcs-Git, and Vcs-Browser fields.
   * Added git-core to Recommends and emacs to Depends
     (closes: 529040).
-
+  * Use /usr/bin/emacsclient always (closes: 530266).
+  
  -- Marius Vollmer <marius.vollmer@gmail.com>  Tue, 28 Apr 2009 22:55:41 +0300
 
 magit (0.7-1) unstable; urgency=low
