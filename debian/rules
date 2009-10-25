@@ -9,6 +9,7 @@ clean:
 install: build 
 	dh install --until auto_install
 	rm debian/magit/usr/share/emacs/site-lisp/magit.elc
+	rm debian/magit/usr/share/info/dir.gz
 	dh install --remaining
 
 binary-arch: install
