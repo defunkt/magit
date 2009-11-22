@@ -1,4 +1,4 @@
-magit (0.7-2~unreleased) unstable; urgency=low
+magit (0.7-2) unstable; urgency=low
 
   * Added Homepage, Vcs-Git, and Vcs-Browser fields.
   * Added git-core and emacs to Depends (closes: 529040).
@@ -6,7 +6,7 @@ magit (0.7-2~unreleased) unstable; urgency=low
   * Don't include /usr/share/info/dir.gz (closes: 549590).
   * Switched to source format 3.0 (quilt).
   * Don't ship any generated files; instead,
-    call autoreconf from deban/rules.
+    call autoreconf from debian/rules.
 
  -- Marius Vollmer <marius.vollmer@gmail.com>  Tue, 28 Apr 2009 22:55:41 +0300
 
