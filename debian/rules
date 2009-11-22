@@ -1,16 +1,23 @@
 #!/usr/bin/make -f
 
-build:
+configure:
+	autoreconf -fi
+
+build: configure
 	dh build
 
 clean:
 	dh clean
+	rm -f aclocal.m4 configure install-sh Makefile.in
+	rm -f INSTALL texinfo.tex missing
 
-install: build 
-	dh install --until auto_install
+override_dh_auto_install:
+	dh_auto_install
 	rm debian/magit/usr/share/emacs/site-lisp/magit.elc
 	rm -f debian/magit/usr/share/info/dir
-	dh install --remaining
+
+install: build 
+	dh install
 
 binary-arch: install
 	dh binary-arch
