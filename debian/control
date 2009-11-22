@@ -10,8 +10,7 @@ Vcs-Git: git://gitorious.org/magit/mainline.git
 
 Package: magit
 Architecture: all
-Depends: ${misc:Depends}, emacs | emacsen
-Recommends: git-core
+Depends: ${misc:Depends}, emacs | emacsen, git-core
 Description: A Emacs interface for Git
  With Magit, you can inspect and modify your Git repositories with
  Emacs.  You can review and commit the changes you have made to the

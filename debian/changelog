@@ -1,8 +1,7 @@
 magit (0.7-2~unreleased) unstable; urgency=low
 
   * Added Homepage, Vcs-Git, and Vcs-Browser fields.
-  * Added git-core to Recommends and emacs to Depends
-    (closes: 529040).
+  * Added git-core and emacs to Depends (closes: 529040).
   * Use /usr/bin/emacsclient always (closes: 530266).
   * Don't include /usr/share/info/dir.gz (closes: 549590).
 
@@ -25,7 +24,7 @@ magit (0.7-1) unstable; urgency=low
   * Lintian fixes.
 
   New upstream release.
-  
+
   * Tagging, on 't' and 'T'.
 
   * Stashing, on 'z' and 'Z'.
